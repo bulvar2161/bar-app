@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
-const base = '/bar-app/'
+const base = process.env.DEPLOY_BASE || '/bar-app/'
 
 export default defineConfig({
   base,

@@ -12,6 +12,12 @@
 - Git настроен локально: `user.name=bulvar2161`, `credential.helper=manager` (Git Credential Manager 2.9.1).
 - Репозиторий и Pages созданы через GitHub API тем же входом, что и push.
 
+### Кастомный домен (подготовлено, ждём покупки домена)
+- Домена пока нет: `bulvar21.ru` занят сайтом ТСЖ (Колпино). Свободны, например: `bulvar21bar.ru`, `bar-bulvar21.ru`, `bulvar21-azov.ru`.
+- `base` берётся из `DEPLOY_BASE` (по умолчанию `/bar-app/`).
+- Публикация на своём домене: `npm run deploy -- --domain bulvar21bar.ru` — base станет `/`, в ветку `gh-pages` добавится файл `CNAME`.
+- DNS у регистратора: apex (A → 185.199.108.153 / .109.153 / .110.153 / .111.153), `www` (CNAME → bulvar2161.github.io). Затем в Settings → Pages включить «Enforce HTTPS».
+
 ### Деплой под подпапку
 - В `vite.config.js` задан `base: '/bar-app/'`; манифест `start_url`/`scope` — `./`.
 - Ассеты в `public/` подключаются через `src/lib/asset.js` (`asset('/menu/...')` → `/bar-app/menu/...`).
