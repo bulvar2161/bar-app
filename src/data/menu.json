@@ -1,0 +1,1169 @@
+{
+  "venue": {
+    "name": "БУЛЬВАР 21",
+    "shortName": "Бульвар 21",
+    "tagline": "Бар · кухня · коктейли",
+    "city": "Азов",
+    "address": "Петровский бульвар, 21",
+    "hoursShort": "Пн–Чт, Вс до 00:00 · Пт–Сб до 01:00",
+    "hoursWeek": "Пн–Чт, Вс 13:00–00:00",
+    "hoursWeekend": "Пт–Сб 13:00–01:00",
+    "isOpen": true,
+    "phone": "+7 (938) 162-52-73",
+    "phoneRaw": "+79381625273",
+    "instagram": "https://www.instagram.com/bulvar.21",
+    "telegram": "https://t.me/bulvarr21",
+    "maps": "https://yandex.ru/maps/org/bulvar_21/119025499425",
+    "tips": "https://netmonet.co/qr/830163/tip?o=4",
+    "orderNote": "Заказ за столом по QR-коду",
+    "minOrder": 0
+  },
+  "promos": [
+    {
+      "id": "author-cocktails",
+      "title": "Авторские коктейли",
+      "subtitle": "10 коктейлей по мотивам рок-хитов · 550 ₽",
+      "badge": "Бар",
+      "emoji": "🍸",
+      "accent": "red",
+      "image": "/gallery/gallery-05.jpg"
+    },
+    {
+      "id": "tincture-set",
+      "title": "Сет настоек",
+      "subtitle": "8 настоек собственного приготовления · 1400 ₽",
+      "badge": "Хит",
+      "emoji": "🥃",
+      "accent": "cream"
+    },
+    {
+      "id": "hot-set",
+      "title": "Горячий сет",
+      "subtitle": "Сырные палочки, фри, гренки, стрипсы · 700 ₽",
+      "badge": "Кухня",
+      "emoji": "🍟",
+      "accent": "dark",
+      "image": "/menu/goryachiy-set.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": "hits",
+      "name": "Хиты",
+      "emoji": "🔥",
+      "group": "Выбор бара",
+      "items": [
+        {
+          "id": "pink-floyd",
+          "name": "Пинк Флойд",
+          "description": "Авторский коктейль: джин, моргентау, персик",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 18,
+          "tags": ["hit"],
+          "emoji": "🍔",
+          "image": "/menu/pink-floyd.jpg"
+        },
+        {
+          "id": "syrnyy-ozzi",
+          "name": "Сырный Оззи",
+          "description": "Бургер с говядиной и сыром",
+          "price": 610,
+          "weight": "400 г",
+          "tags": ["hit"],
+          "emoji": "🍔",
+          "image": "/menu/syrnyy-ozzi.jpg"
+        },
+        {
+          "id": "karbonara",
+          "name": "Карбонара",
+          "description": "Паста карбонара",
+          "price": 470,
+          "weight": "280 г",
+          "tags": ["hit"],
+          "emoji": "🍝",
+          "image": "/menu/karbonara.jpg"
+        },
+        {
+          "id": "rebra-ostrye",
+          "name": "Рёбра острые",
+          "description": "Свиные рёбра в остром соусе",
+          "price": 700,
+          "weight": "390 г",
+          "tags": ["hit", "spicy"],
+          "emoji": "🍖",
+          "image": "/menu/rebra-ostrye.jpg"
+        },
+        {
+          "id": "tigrovye-krevetki",
+          "name": "Тигровые креветки на гриле",
+          "description": "Крупные креветки на гриле",
+          "price": 750,
+          "weight": "200 г",
+          "tags": ["hit"],
+          "emoji": "🦐",
+          "image": "/menu/tigrovye-krevetki.jpg"
+        },
+        {
+          "id": "tincture-set",
+          "name": "Сет настоек",
+          "description": "8 настоек собственного приготовления",
+          "price": 1400,
+          "volume": "8 × 40 мл",
+          "abv": 20,
+          "tags": ["hit"],
+          "emoji": "🥃"
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Салаты",
+      "emoji": "🥗",
+      "group": "Кухня",
+      "items": [
+        {
+          "id": "salad-baklazhany",
+          "name": "С хрустящими баклажанами",
+          "description": "Салат с хрустящими баклажанами",
+          "price": 490,
+          "weight": "250 г",
+          "tags": [],
+          "emoji": "🥗",
+          "image": "/menu/salad-baklazhany.jpg"
+        },
+        {
+          "id": "salad-grusha",
+          "name": "Груша с горгондзолой",
+          "description": "Салат с грушей и сыром горгондзола",
+          "price": 590,
+          "weight": "200 г",
+          "tags": [],
+          "emoji": "🥗",
+          "image": "/menu/salad-grusha.jpg"
+        },
+        {
+          "id": "salad-mango-krevetki",
+          "name": "С манго и креветками",
+          "description": "Салат с манго и креветками",
+          "price": 590,
+          "weight": "230 г",
+          "tags": ["new"],
+          "emoji": "🥗",
+          "image": "/menu/salad-mango-krevetki.jpg"
+        },
+        {
+          "id": "salad-kurochka",
+          "name": "Хрустящая курочка",
+          "description": "Салат с хрустящей курицей",
+          "price": 470,
+          "weight": "210 г",
+          "tags": [],
+          "emoji": "🥗",
+          "image": "/menu/salad-kurochka.jpg"
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Закуски",
+      "emoji": "🥨",
+      "group": "Кухня",
+      "items": [
+        {
+          "id": "sudzhuk",
+          "name": "Суджук",
+          "description": "Вяленое мясо с пряностями",
+          "price": 350,
+          "weight": "50 г",
+          "tags": [],
+          "emoji": "🥓",
+          "image": "/menu/sudzhuk.jpg"
+        },
+        {
+          "id": "fistashki",
+          "name": "Фисташки",
+          "description": "Жареные фисташки",
+          "price": 350,
+          "weight": "50 г",
+          "tags": [],
+          "emoji": "🥜"
+        },
+        {
+          "id": "arahis",
+          "name": "Арахис в глазури",
+          "description": "Арахис в сладкой глазури",
+          "price": 250,
+          "weight": "100 г",
+          "tags": [],
+          "emoji": "🥜"
+        },
+        {
+          "id": "syrnye-palochki",
+          "name": "Сырные палочки",
+          "description": "Палочки из сыра в панировке",
+          "price": 395,
+          "weight": "150 г",
+          "tags": [],
+          "emoji": "🧀",
+          "image": "/menu/syrnye-palochki.jpg"
+        },
+        {
+          "id": "kurinye-stripsy",
+          "name": "Куриные стрипсы",
+          "description": "Полоски куриного филе в панировке",
+          "price": 360,
+          "weight": "150 г",
+          "tags": [],
+          "emoji": "🍗",
+          "image": "/menu/kurinye-stripsy.jpg"
+        },
+        {
+          "id": "grenki",
+          "name": "Гренки чесночные",
+          "description": "Хрустящие гренки с чесноком",
+          "price": 280,
+          "weight": "170 г",
+          "tags": [],
+          "emoji": "🍞"
+        },
+        {
+          "id": "seledka",
+          "name": "Селедка с картофелем беби",
+          "description": "Сельдь с молодым картофелем",
+          "price": 380,
+          "weight": "230 г",
+          "tags": [],
+          "emoji": "🐟",
+          "image": "/menu/seledka-s-kartofelem.jpg"
+        },
+        {
+          "id": "kurinye-krylyshki",
+          "name": "Куриные крылышки",
+          "description": "Соус на выбор: сырный, том ям, барбекю",
+          "price": 390,
+          "weight": "230 г",
+          "tags": [],
+          "emoji": "🍗",
+          "image": "/menu/kurinye-krylyshki.jpg"
+        },
+        {
+          "id": "krevetki-klyar",
+          "name": "Креветки в кляре",
+          "description": "Креветки в хрустящем кляре",
+          "price": 590,
+          "weight": "130 г",
+          "tags": [],
+          "emoji": "🦐"
+        },
+        {
+          "id": "set-buterbrodikov",
+          "name": "Сет бутербродиков",
+          "description": "С салом, с сельдью, с сальсой",
+          "price": 410,
+          "weight": "150 г",
+          "tags": [],
+          "emoji": "🥪",
+          "image": "/menu/set-buterbrodikov.jpg"
+        },
+        {
+          "id": "brusketta",
+          "name": "Брускетта",
+          "description": "Креветка или груша с горгондзолой",
+          "price": 490,
+          "weight": "120 г",
+          "tags": [],
+          "emoji": "🍅"
+        },
+        {
+          "id": "goryachiy-set",
+          "name": "Горячий сет",
+          "description": "Сырные палочки, фри, гренки, стрипсы",
+          "price": 700,
+          "weight": "450 г",
+          "tags": ["hit"],
+          "emoji": "🍟",
+          "image": "/menu/goryachiy-set.jpg"
+        },
+        {
+          "id": "prosto-pohrustet",
+          "name": "Просто похрустеть",
+          "description": "Вяленая курочка, суджук, фисташки, арахис, сырные шарики",
+          "price": 750,
+          "weight": "150 г",
+          "tags": [],
+          "emoji": "🥨"
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name": "Супы",
+      "emoji": "🍜",
+      "group": "Кухня",
+      "items": [
+        {
+          "id": "rashen-ramen",
+          "name": "Рашен-рамен",
+          "description": "Суп-лапша",
+          "price": 370,
+          "weight": "450 г",
+          "tags": [],
+          "emoji": "🍜"
+        },
+        {
+          "id": "tayskiy-supchik",
+          "name": "Тайский супчик",
+          "description": "Острый суп с кокосовым молоком",
+          "price": 560,
+          "weight": "450 г",
+          "tags": ["spicy"],
+          "emoji": "🍲",
+          "image": "/menu/tayskiy-supchik.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Паста",
+      "emoji": "🍝",
+      "group": "Кухня",
+      "items": [
+        {
+          "id": "pasta-karbonara",
+          "name": "Карбонара",
+          "description": "Паста карбонара",
+          "price": 470,
+          "weight": "280 г",
+          "tags": ["hit"],
+          "emoji": "🍝",
+          "image": "/menu/karbonara.jpg"
+        },
+        {
+          "id": "penne-kuritsa",
+          "name": "Пенне с курочкой и грибами",
+          "description": "Паста пенне с курицей и грибами",
+          "price": 520,
+          "weight": "300 г",
+          "tags": [],
+          "emoji": "🍝",
+          "image": "/menu/penne-s-kurochkoy.jpg"
+        },
+        {
+          "id": "lingvini-krevetki",
+          "name": "Лингвини с креветками",
+          "description": "Паста лингвини с креветками",
+          "price": 630,
+          "weight": "280 г",
+          "tags": [],
+          "emoji": "🍝"
+        }
+      ]
+    },
+    {
+      "id": "ribs",
+      "name": "Рёбра",
+      "emoji": "🍖",
+      "group": "Кухня",
+      "items": [
+        {
+          "id": "rebra-barbekyu",
+          "name": "Барбекю",
+          "description": "Рёбра в соусе барбекю",
+          "price": 700,
+          "weight": "390 г",
+          "tags": [],
+          "emoji": "🍖"
+        },
+        {
+          "id": "rebra-ostrye-2",
+          "name": "Острые",
+          "description": "Рёбра в остром соусе",
+          "price": 700,
+          "weight": "390 г",
+          "tags": ["spicy"],
+          "emoji": "🍖",
+          "image": "/menu/rebra-ostrye.jpg"
+        },
+        {
+          "id": "rebra-syrnyy-nachos",
+          "name": "Сырный начос",
+          "description": "Рёбра с сыром и начос",
+          "price": 750,
+          "weight": "390 г",
+          "tags": [],
+          "emoji": "🍖",
+          "image": "/menu/syrnyy-nachos-rebra.jpg"
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Бургеры",
+      "emoji": "🍔",
+      "group": "Кухня",
+      "items": [
+        {
+          "id": "burger-syrnyy-ozzi",
+          "name": "Сырный Оззи",
+          "description": "Бургер с говядиной и сыром",
+          "price": 610,
+          "weight": "400 г",
+          "tags": ["hit"],
+          "emoji": "🍔",
+          "image": "/menu/syrnyy-ozzi.jpg"
+        },
+        {
+          "id": "burger-freddi",
+          "name": "Фредди",
+          "description": "Классический бургер",
+          "price": 480,
+          "weight": "380 г",
+          "tags": [],
+          "emoji": "🍔",
+          "image": "/menu/freddi.jpg"
+        },
+        {
+          "id": "burger-pink-floyd",
+          "name": "Пинк Флойд",
+          "description": "Бургер Пинк Флойд",
+          "price": 610,
+          "weight": "450 г",
+          "tags": [],
+          "emoji": "🍔",
+          "image": "/menu/pink-floyd.jpg"
+        }
+      ]
+    },
+    {
+      "id": "seafood",
+      "name": "Морепродукты",
+      "emoji": "🦐",
+      "group": "Кухня",
+      "items": [
+        {
+          "id": "krevetki-zharenye",
+          "name": "Креветки жареные",
+          "description": "Соус на выбор: том ям или соевый",
+          "price": 670,
+          "weight": "200 г",
+          "tags": [],
+          "emoji": "🦐",
+          "image": "/menu/krevetki-zharenye.jpg"
+        },
+        {
+          "id": "tigrovye-krevetki-2",
+          "name": "Тигровые креветки на гриле",
+          "description": "Крупные креветки на гриле",
+          "price": 750,
+          "weight": "200 г",
+          "tags": ["hit"],
+          "emoji": "🦐",
+          "image": "/menu/tigrovye-krevetki.jpg"
+        },
+        {
+          "id": "midii",
+          "name": "Мидии",
+          "description": "Том ям или в сливочном соусе",
+          "price": 750,
+          "weight": "300 г",
+          "tags": [],
+          "emoji": "🐚",
+          "image": "/menu/midii.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "name": "Коктейли",
+      "emoji": "🍸",
+      "group": "Бар",
+      "items": [
+        {
+          "id": "c-pink-floyd",
+          "name": "Pink Floyd",
+          "description": "Джин, моргентау, персик",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 18,
+          "tags": ["hit"],
+          "emoji": "🍸"
+        },
+        {
+          "id": "c-deep-purple",
+          "name": "Deep Purple",
+          "description": "Водка, черника, лаванда",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 18,
+          "tags": [],
+          "emoji": "🍇"
+        },
+        {
+          "id": "c-led-zeppelin",
+          "name": "Led Zeppelin",
+          "description": "Водка, томатный микс, специи",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 15,
+          "tags": [],
+          "emoji": "🍅"
+        },
+        {
+          "id": "c-rolling-stones",
+          "name": "Rolling Stones",
+          "description": "Джин, клубника, улун, кампари",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 16,
+          "tags": [],
+          "emoji": "🍓"
+        },
+        {
+          "id": "c-acdc",
+          "name": "AC/DC",
+          "description": "Ром, лемонграсс, лайм, спилантес",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 18,
+          "tags": [],
+          "emoji": "🍹"
+        },
+        {
+          "id": "c-travis-scott",
+          "name": "Travis Scott",
+          "description": "Текила, клубника, ананас, лайм",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 17,
+          "tags": [],
+          "emoji": "🍍"
+        },
+        {
+          "id": "c-jimi-hendrix",
+          "name": "Jimi Hendrix",
+          "description": "Виски, банан, сливки",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 14,
+          "tags": [],
+          "emoji": "🥤"
+        },
+        {
+          "id": "c-tame-impala",
+          "name": "Tame Impala",
+          "description": "Джин, игристое, яблоко, пшеница",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 13,
+          "tags": [],
+          "emoji": "🍏"
+        },
+        {
+          "id": "c-the-weeknd",
+          "name": "The Weeknd",
+          "description": "Водка, кофе, малина, сыр",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 16,
+          "tags": ["new"],
+          "emoji": "☕"
+        },
+        {
+          "id": "c-tyler-creator",
+          "name": "Tyler The Creator",
+          "description": "Инфьюз маракуйя, апельсин, ваниль",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 15,
+          "tags": ["new"],
+          "emoji": "🥭"
+        }
+      ]
+    },
+    {
+      "id": "classics",
+      "name": "Классика",
+      "emoji": "🥂",
+      "group": "Бар",
+      "items": [
+        {
+          "id": "cl-negroni",
+          "name": "Негрони",
+          "description": "Джин, кампари, красный вермут",
+          "price": 550,
+          "volume": "160 мл",
+          "abv": 24,
+          "tags": [],
+          "emoji": "🍹"
+        },
+        {
+          "id": "cl-daiquiri",
+          "name": "Дайкири",
+          "description": "Ром, лайм, сахарный сироп",
+          "price": 550,
+          "volume": "160 мл",
+          "abv": 22,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "cl-margarita",
+          "name": "Маргарита",
+          "description": "Текила, трипл сек, лайм",
+          "price": 550,
+          "volume": "180 мл",
+          "abv": 26,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "cl-whiskey-sour",
+          "name": "Виски Сауэр",
+          "description": "Виски, лимон, сахарный сироп",
+          "price": 550,
+          "volume": "180 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "cl-churchill",
+          "name": "Черчилль",
+          "description": "Классический коктейль",
+          "price": 550,
+          "volume": "180 мл",
+          "abv": 22,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "cl-clover-club",
+          "name": "Кловер Клаб",
+          "description": "Джин, малиновый сироп, лимон, яйцо",
+          "price": 550,
+          "volume": "180 мл",
+          "abv": 18,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "cl-white-russian",
+          "name": "Белый русский",
+          "description": "Водка, кофейный ликёр, сливки",
+          "price": 550,
+          "volume": "180 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🥛"
+        },
+        {
+          "id": "cl-french-75",
+          "name": "Френч 75",
+          "description": "Джин, лимон, сахар, игристое",
+          "price": 550,
+          "volume": "180 мл",
+          "abv": 16,
+          "tags": [],
+          "emoji": "🥂"
+        },
+        {
+          "id": "cl-aperol-spritz",
+          "name": "Апероль Шпритц",
+          "description": "Апероль, игристое, содовая",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 11,
+          "tags": [],
+          "emoji": "🍹"
+        },
+        {
+          "id": "cl-sarti-spritz",
+          "name": "Сарти Шпритц",
+          "description": "Сарти, игристое, содовая",
+          "price": 550,
+          "volume": "250 мл",
+          "abv": 11,
+          "tags": [],
+          "emoji": "🍹"
+        }
+      ]
+    },
+    {
+      "id": "tinctures",
+      "name": "Настойки",
+      "emoji": "🫗",
+      "group": "Бар",
+      "items": [
+        {
+          "id": "t-limoncello",
+          "name": "Лимончелло",
+          "description": "Настойка на лимоне",
+          "price": 190,
+          "volume": "40 мл",
+          "abv": 25,
+          "tags": [],
+          "emoji": "🍋"
+        },
+        {
+          "id": "t-caramel",
+          "name": "Сливочная карамель",
+          "description": "Настойка сливочная карамель",
+          "price": 190,
+          "volume": "40 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🍮"
+        },
+        {
+          "id": "t-passion-vanilla",
+          "name": "Маракуйя-ваниль",
+          "description": "Настойка маракуйя и ваниль",
+          "price": 190,
+          "volume": "40 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🥭"
+        },
+        {
+          "id": "t-currant-chocolate",
+          "name": "Смородина-шоколад",
+          "description": "Настойка смородина и шоколад",
+          "price": 190,
+          "volume": "40 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🍫"
+        },
+        {
+          "id": "t-strawberry-lime",
+          "name": "Клубника-лайм",
+          "description": "Настойка клубника и лайм",
+          "price": 190,
+          "volume": "40 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🍓"
+        },
+        {
+          "id": "t-raspberry-bergamot",
+          "name": "Малина-бергамот",
+          "description": "Настойка малина и бергамот",
+          "price": 190,
+          "volume": "40 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🍇"
+        },
+        {
+          "id": "t-garlic-honey",
+          "name": "Чеснок-мёд",
+          "description": "Настойка чеснок и мёд",
+          "price": 190,
+          "volume": "40 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🍯"
+        },
+        {
+          "id": "t-tomato-cilantro",
+          "name": "Томат-кинза",
+          "description": "Настойка томат и кинза",
+          "price": 190,
+          "volume": "40 мл",
+          "abv": 20,
+          "tags": [],
+          "emoji": "🍅"
+        },
+        {
+          "id": "t-set",
+          "name": "Сет настоек",
+          "description": "8 настоек на выбор",
+          "price": 1400,
+          "volume": "8 × 40 мл",
+          "abv": 20,
+          "tags": ["hit"],
+          "emoji": "🥃"
+        }
+      ]
+    },
+    {
+      "id": "spirits",
+      "name": "Крепкое",
+      "emoji": "🥃",
+      "group": "Бар",
+      "items": [
+        {
+          "id": "s-vodka-tsarskaya",
+          "name": "Водка Царская",
+          "description": "Водка, порция 40 мл",
+          "price": 160,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "s-vodka-mamont",
+          "name": "Водка Мамонт",
+          "description": "Водка, порция 40 мл",
+          "price": 270,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "s-vodka-absolut",
+          "name": "Водка Абсолют",
+          "description": "Водка, порция 40 мл",
+          "price": 340,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "s-gin-bulldog",
+          "name": "Джин Бульдог",
+          "description": "Джин, порция 40 мл",
+          "price": 340,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "s-gin-beefeater",
+          "name": "Джин Бифитер",
+          "description": "Джин, порция 40 мл",
+          "price": 510,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🍸"
+        },
+        {
+          "id": "s-rum-botafogo",
+          "name": "Ром Ботафого",
+          "description": "Спайсед или чёрный, порция 40 мл",
+          "price": 340,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-rum-beach-house",
+          "name": "Ром Бич Хаус",
+          "description": "Ром, порция 40 мл",
+          "price": 590,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-tequila-casa",
+          "name": "Текила Каза Диего Мария",
+          "description": "Текила, порция 40 мл",
+          "price": 340,
+          "volume": "40 мл",
+          "abv": 38,
+          "tags": [],
+          "emoji": "🌵"
+        },
+        {
+          "id": "s-tequila-espolon-blanco",
+          "name": "Текила Эсполон Бланко",
+          "description": "Текила, порция 40 мл",
+          "price": 595,
+          "volume": "40 мл",
+          "abv": 38,
+          "tags": [],
+          "emoji": "🌵"
+        },
+        {
+          "id": "s-tequila-espolon-reposado",
+          "name": "Текила Эсполон Репосадо",
+          "description": "Текила, порция 40 мл",
+          "price": 700,
+          "volume": "40 мл",
+          "abv": 38,
+          "tags": [],
+          "emoji": "🌵"
+        },
+        {
+          "id": "s-vermouth-cinzano",
+          "name": "Вермут Чинзано",
+          "description": "Россо, бьянко или экстра драй",
+          "price": 210,
+          "volume": "40 мл",
+          "abv": 16,
+          "tags": [],
+          "emoji": "🍷"
+        },
+        {
+          "id": "s-whiskey-jameson",
+          "name": "Виски Джемесон",
+          "description": "Ирландский виски, порция 40 мл",
+          "price": 480,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-whiskey-jack",
+          "name": "Виски Джек Дэниэлс",
+          "description": "Теннесси виски, порция 40 мл",
+          "price": 510,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-whiskey-glenfiddich",
+          "name": "Виски Гленфиддик 12",
+          "description": "Односолодовый виски, порция 40 мл",
+          "price": 740,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-whiskey-makers",
+          "name": "Виски Мэйкерс Марк",
+          "description": "Бурбон, порция 40 мл",
+          "price": 710,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-jagermeister",
+          "name": "Егермейстер",
+          "description": "Аперитив, порция 40 мл",
+          "price": 390,
+          "volume": "40 мл",
+          "abv": 35,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-sambuca",
+          "name": "Самбука",
+          "description": "Аперитив, порция 40 мл",
+          "price": 350,
+          "volume": "40 мл",
+          "abv": 38,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-aperol",
+          "name": "Апероль",
+          "description": "Аперитив, порция 40 мл",
+          "price": 320,
+          "volume": "40 мл",
+          "abv": 11,
+          "tags": [],
+          "emoji": "🍹"
+        },
+        {
+          "id": "s-campari",
+          "name": "Кампари",
+          "description": "Аперитив, порция 40 мл",
+          "price": 330,
+          "volume": "40 мл",
+          "abv": 25,
+          "tags": [],
+          "emoji": "🍹"
+        },
+        {
+          "id": "s-sarti",
+          "name": "Сарти",
+          "description": "Аперитив, порция 40 мл",
+          "price": 330,
+          "volume": "40 мл",
+          "abv": 11,
+          "tags": [],
+          "emoji": "🍹"
+        },
+        {
+          "id": "s-ararat",
+          "name": "Арарат 3*",
+          "description": "Коньяк, порция 40 мл",
+          "price": 290,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🥃"
+        },
+        {
+          "id": "s-hennessy",
+          "name": "Хеннеси ВС",
+          "description": "Коньяк, порция 40 мл",
+          "price": 700,
+          "volume": "40 мл",
+          "abv": 40,
+          "tags": [],
+          "emoji": "🥃"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "name": "Вино",
+      "emoji": "🍷",
+      "group": "Бар",
+      "items": [
+        {
+          "id": "w-provetto",
+          "name": "Проветто Спуманте Брют",
+          "description": "Игристое, 750 мл",
+          "price": 2600,
+          "volume": "750 мл",
+          "abv": 11,
+          "tags": [],
+          "emoji": "🥂"
+        },
+        {
+          "id": "w-magua-sauvignon",
+          "name": "Магуа Савиньон Блан",
+          "description": "Белое сухое · бокал / бутылка",
+          "price": 530,
+          "priceBottle": 3200,
+          "volume": "125 / 750 мл",
+          "abv": 12,
+          "tags": [],
+          "emoji": "🥂"
+        },
+        {
+          "id": "w-db-family-riesling",
+          "name": "ДБ Фэмали Рислинг",
+          "description": "Белое сухое · бокал / бутылка",
+          "price": 570,
+          "priceBottle": 3500,
+          "volume": "125 / 750 мл",
+          "abv": 12,
+          "tags": [],
+          "emoji": "🥂"
+        },
+        {
+          "id": "w-magua-carmenere",
+          "name": "Магуа Резерва Карманер",
+          "description": "Красное сухое · бокал / бутылка",
+          "price": 500,
+          "priceBottle": 3500,
+          "volume": "125 / 750 мл",
+          "abv": 13,
+          "tags": [],
+          "emoji": "🍷"
+        },
+        {
+          "id": "w-primitivo",
+          "name": "Примитиво Саленто",
+          "description": "Красное сухое · бокал / бутылка",
+          "price": 700,
+          "priceBottle": 4200,
+          "volume": "125 / 750 мл",
+          "abv": 14,
+          "tags": [],
+          "emoji": "🍷"
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "name": "Пиво",
+      "emoji": "🍺",
+      "group": "Бар",
+      "items": [
+        {
+          "id": "b-draft",
+          "name": "Пиво на кране",
+          "description": "Ассортимент уточняйте у барменов",
+          "price": 0,
+          "volume": "0,33 / 0,5 л",
+          "tags": [],
+          "emoji": "🍺"
+        },
+        {
+          "id": "b-bottle",
+          "name": "Пиво в бутылке",
+          "description": "Ассортимент уточняйте у барменов",
+          "price": 0,
+          "volume": "0,45 л",
+          "tags": [],
+          "emoji": "🍺"
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "name": "Кофе",
+      "emoji": "☕",
+      "group": "Бар",
+      "items": [
+        { "id": "cf-espresso", "name": "Эспрессо", "description": "Кофе эспрессо", "price": 120, "volume": "40 мл", "tags": [], "emoji": "☕" },
+        { "id": "cf-americano", "name": "Американо", "description": "Кофе американо", "price": 150, "volume": "200 мл", "tags": [], "emoji": "☕" },
+        { "id": "cf-cappuccino", "name": "Капучино", "description": "Кофе капучино", "price": 190, "volume": "200 мл", "tags": [], "emoji": "☕" },
+        { "id": "cf-cappuccino-big", "name": "Большой капучино", "description": "Кофе капучино, большой", "price": 230, "volume": "350 мл", "tags": [], "emoji": "☕" },
+        { "id": "cf-flat-white", "name": "Флет Уайт", "description": "Кофе флет уайт", "price": 250, "volume": "200 мл", "tags": [], "emoji": "☕" },
+        { "id": "cf-latte", "name": "Латте", "description": "Кофе латте", "price": 230, "volume": "350 мл", "tags": [], "emoji": "☕" },
+        { "id": "cf-raf", "name": "Раф", "description": "Кофе раф", "price": 270, "volume": "350 мл", "tags": [], "emoji": "☕" },
+        { "id": "cf-raf-peanut", "name": "Арахисовый раф с сырной пеной", "description": "Авторский раф", "price": 330, "volume": "350 мл", "tags": ["new"], "emoji": "☕" },
+        { "id": "cf-latte-waffle", "name": "Латте Бельгийская Вафля", "description": "Авторский латте", "price": 330, "volume": "350 мл", "tags": [], "emoji": "☕" }
+      ]
+    },
+    {
+      "id": "milkshakes",
+      "name": "Милкшейки",
+      "emoji": "🥛",
+      "group": "Бар",
+      "items": [
+        { "id": "ms-currant", "name": "Смородина-шоколад-мята", "description": "Молочный коктейль", "price": 350, "volume": "300 мл", "tags": [], "emoji": "🥛" },
+        { "id": "ms-peanut", "name": "Солёный арахис", "description": "Молочный коктейль", "price": 350, "volume": "300 мл", "tags": [], "emoji": "🥛" },
+        { "id": "ms-strawberry", "name": "Клубника-белый шоколад", "description": "Молочный коктейль", "price": 350, "volume": "300 мл", "tags": [], "emoji": "🥛" }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "Чай",
+      "emoji": "🍵",
+      "group": "Бар",
+      "items": [
+        { "id": "tea-classic", "name": "Классика", "description": "Чёрный, бергамот, сенча, травяной, молочный улун", "price": 350, "volume": "900 мл", "tags": [], "emoji": "🍵" },
+        { "id": "tea-currant", "name": "Смородина-цитрус-мята", "description": "Авторский чай", "price": 550, "volume": "900 мл", "tags": [], "emoji": "🍵" },
+        { "id": "tea-oolong", "name": "Улун-лемонграсс-ананас", "description": "Авторский чай", "price": 550, "volume": "900 мл", "tags": [], "emoji": "🍵" },
+        { "id": "tea-passion", "name": "Маракуйя-банан-сенча", "description": "Авторский чай", "price": 550, "volume": "900 мл", "tags": [], "emoji": "🍵" }
+      ]
+    },
+    {
+      "id": "lemonades",
+      "name": "Лимонады",
+      "emoji": "🍋",
+      "group": "Бар",
+      "items": [
+        { "id": "lm-strawberry", "name": "Клубника-ваниль", "description": "Домашний лимонад", "price": 290, "volume": "400 мл", "tags": [], "emoji": "🍓" },
+        { "id": "lm-wheat", "name": "Пшеница-яблоко", "description": "Домашний лимонад", "price": 290, "volume": "400 мл", "tags": [], "emoji": "🍏" },
+        { "id": "lm-cream-soda", "name": "Крем-сода", "description": "Домашний лимонад", "price": 290, "volume": "400 мл", "tags": [], "emoji": "🍋" },
+        { "id": "lm-lavender", "name": "Лаванда-виноград", "description": "Домашний лимонад", "price": 290, "volume": "400 мл", "tags": [], "emoji": "🍇" }
+      ]
+    },
+    {
+      "id": "soft",
+      "name": "Напитки",
+      "emoji": "🥤",
+      "group": "Бар",
+      "items": [
+        { "id": "sf-assorted", "name": "Напитки ассортимент", "description": "Газированные напитки", "price": 220, "volume": "0,25 л", "tags": [], "emoji": "🥤" },
+        { "id": "sf-water", "name": "Вода газ / без газа", "description": "Минеральная вода", "price": 190, "volume": "0,33 л", "tags": [], "emoji": "💧" }
+      ]
+    }
+  ]
+}

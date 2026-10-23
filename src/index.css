@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Soyuz Grotesk";
+  src: url("/fonts/SoyuzGroteskBold.otf") format("opentype"),
+    url("/fonts/SoyuzGroteskBold.ttf") format("truetype");
+  font-weight: 400 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Denistina";
+  src: url("/fonts/Denistina.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Wremena";
+  src: url("/fonts/Wremena-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@theme {
+  /* Палитра бренда «Бульвар 21» */
+  --color-bar-red: #9b0000;
+  --color-bar-red-dark: #6f0000;
+  --color-bar-red-light: #c81010;
+  --color-bar-cream: #fff9ca;
+  --color-bar-blue: #0b2480;
+  --color-bar-dark: #121212;
+  --color-bar-dark-soft: #1c1c1c;
+  --color-bar-dark-card: #232323;
+  --color-bar-muted: #9a9a9a;
+
+  /* Типографика */
+  --font-display: "Soyuz Grotesk", "Arial Black", system-ui, sans-serif;
+  --font-script: "Denistina", "Soyuz Grotesk", cursive;
+  --font-body: "Wremena", "Soyuz Grotesk", system-ui, sans-serif;
+
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-bar-dark);
+    color: var(--color-bar-cream);
+    font-family: var(--font-body);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    overscroll-behavior-y: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+
+  button {
+    font-family: inherit;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .safe-bottom {
+    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 5.5rem);
+  }
+
+  .safe-top {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+
+  .font-script {
+    font-family: var(--font-script);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes bar-rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation: bar-rise 0.35s ease-out both;
+}
+
+@keyframes lightbox-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-lightbox {
+  animation: lightbox-in 0.22s ease-out both;
+}
+
+@keyframes hero-fade {
+  0% {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+  2% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+  }
+  16.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.16);
+  }
+}
+
+.hero-slide {
+  animation: hero-fade 36s linear infinite;
+  will-change: opacity, transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide {
+    animation: none;
+    opacity: 0;
+  }
+  .hero-slide:first-child {
+    opacity: 1;
+  }
+}
