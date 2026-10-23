@@ -9,6 +9,7 @@ import {
   Phone,
   Send
 } from 'lucide-react'
+import { asset } from '../lib/asset.js'
 
 const SLIDES = [
   '/gallery/gallery-01.jpg',
@@ -17,7 +18,7 @@ const SLIDES = [
   '/gallery/gallery-06.jpg',
   '/gallery/gallery-08.jpg',
   '/gallery/gallery-10.jpg'
-]
+].map(asset)
 
 function ActionTile({ href, icon: Icon, label, hint, external, delay = 0 }) {
   return (
@@ -70,7 +71,7 @@ export default function Landing({ venue, onOpenMenu }) {
 
         <div className="flex flex-1 flex-col items-center justify-center py-8 text-center">
           <img
-            src="/brand/logo.png"
+            src={asset('/brand/logo.png')}
             alt={venue.shortName}
             className="w-[80%] max-w-xs drop-shadow-[0_6px_24px_rgba(0,0,0,0.6)]"
           />

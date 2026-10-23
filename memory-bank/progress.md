@@ -4,10 +4,18 @@
 
 ## Статус: наполнено реальным контентом бара (v0.2.0)
 
-## Репозиторий
-- GitHub: https://github.com/bulvar2161/bar-app (публичный, ветка `main`, первый коммит `a8973ef`).
+## Репозиторий и деплой
+- GitHub: https://github.com/bulvar2161/bar-app (публичный).
+- Ветка `main` — исходники. Ветка `gh-pages` — собранный сайт (публикуется GitHub Pages).
+- **Живой сайт:** https://bulvar2161.github.io/bar-app/ (Pages: source `gh-pages` `/`, legacy build).
+- Обновление сайта: `npm run deploy` (сборка → пуш в `gh-pages`).
 - Git настроен локально: `user.name=bulvar2161`, `credential.helper=manager` (Git Credential Manager 2.9.1).
-- Репозиторий создан через GitHub API тем же входом, что и push.
+- Репозиторий и Pages созданы через GitHub API тем же входом, что и push.
+
+### Деплой под подпапку
+- В `vite.config.js` задан `base: '/bar-app/'`; манифест `start_url`/`scope` — `./`.
+- Ассеты в `public/` подключаются через `src/lib/asset.js` (`asset('/menu/...')` → `/bar-app/menu/...`).
+- Шрифты перенесены в `src/assets/fonts/` и подключаются относительными путями (Vite хеширует).
 
 ## Источник материалов
 Реальные материалы взяты с диска **M:** (проекты с GitHub пользователя):

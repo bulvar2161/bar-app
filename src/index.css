@@ -2,22 +2,22 @@
 
 @font-face {
   font-family: "Soyuz Grotesk";
-  src: url("/fonts/SoyuzGroteskBold.otf") format("opentype"),
-    url("/fonts/SoyuzGroteskBold.ttf") format("truetype");
+  src: url("./assets/fonts/SoyuzGroteskBold.otf") format("opentype"),
+    url("./assets/fonts/SoyuzGroteskBold.ttf") format("truetype");
   font-weight: 400 900;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Denistina";
-  src: url("/fonts/Denistina.ttf") format("truetype");
+  src: url("./assets/fonts/Denistina.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Wremena";
-  src: url("/fonts/Wremena-Light.ttf") format("truetype");
+  src: url("./assets/fonts/Wremena-Light.ttf") format("truetype");
   font-weight: 300;
   font-display: swap;
 }

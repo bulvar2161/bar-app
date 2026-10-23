@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
+const base = '/bar-app/'
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
     tailwindcss(),
@@ -20,8 +23,8 @@ export default defineConfig({
         background_color: '#121212',
         display: 'standalone',
         orientation: 'portrait',
-        scope: '/',
-        start_url: '/',
+        scope: './',
+        start_url: './',
         categories: ['food', 'drinks', 'shopping'],
         icons: [
           {
@@ -45,6 +48,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,json,woff2,ttf,otf}'],
         globIgnores: ['**/menu/**', '**/gallery/**'],
+        navigateFallback: `${base}index.html`,
         clientsClaim: true,
         skipWaiting: true,
         runtimeCaching: [
@@ -55,11 +59,6 @@ export default defineConfig({
               cacheName: 'bar-images',
               expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 30 }
             }
-          },
-          {
-            urlPattern: /^https:\/\/fonts\.(googleapis|gstatic)\.com\/.*/i,
-            handler: 'StaleWhileRevalidate',
-            options: { cacheName: 'bar-fonts' }
           }
         ]
       },

@@ -31,18 +31,19 @@ bar-app/
 ├─ public/
 │  ├─ brand/logo.png          # логотип «Бульвар 21» (скрипт, кремовый)
 │  ├─ brand/icon-mark.png     # знак — два бокала (источник для иконок)
-│  ├─ fonts/                  # SoyuzGroteskBold.otf/.ttf, Denistina.ttf, Wremena-Light.ttf
 │  ├─ menu/                   # 23 фото блюд (ASCII-имена)
 │  ├─ gallery/                # 11 фото интерьера
 │  ├─ icons/                  # иконки соцсетей/действий
 │  ├─ apple-touch-icon.png, pwa-192x192.png, pwa-512x512.png, pwa-maskable-512x512.png
 │  └─ robots.txt
 ├─ scripts/generate-icons.mjs # PNG-декодер + ресайз знака → иконки PWA
+├─ scripts/deploy.mjs         # сборка + публикация на GitHub Pages
 ├─ src/
 │  ├─ main.jsx, App.jsx       # сборка страницы, переключение экранов, scroll-spy
 │  ├─ index.css               # @font-face + Tailwind v4 @theme (палитра бренда)
+│  ├─ assets/fonts/           # SoyuzGroteskBold, Denistina, Wremena
 │  ├─ data/menu.json          # venue / promos / categories[].items[]
-│  ├─ lib/format.js
+│  ├─ lib/format.js, asset.js # asset() → префикс base для файлов из public/
 │  ├─ hooks/usePwaInstall.js
 │  └─ components/             # Landing, Header, PromoBanner, CategoryTabs,
 │                             # MenuSection, MenuItemCard, Lightbox, BottomNav, InstallPrompt
@@ -58,6 +59,11 @@ bar-app/
 - `npm run build` — прод-сборка + `sw.js` и `manifest.webmanifest`.
 - `npm run preview` — предпросмотр собранной PWA.
 - `npm run icons` — перегенерировать PNG-иконки из `public/brand/icon-mark.png`.
+- `npm run deploy` — собрать и опубликовать на GitHub Pages (ветка `gh-pages`).
+
+## Сайт
+- Живой адрес: https://bulvar2161.github.io/bar-app/
+- Хостинг: GitHub Pages, ветка `gh-pages`, `base: '/bar-app/'`.
 
 ## Технические заметки
 - Windows: `npm` вызывается как `npm.cmd` (PowerShell ExecutionPolicy блокирует `npm.ps1`).

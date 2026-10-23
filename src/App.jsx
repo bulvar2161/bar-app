@@ -10,6 +10,7 @@ import BottomNav from './components/BottomNav.jsx'
 import InstallPrompt from './components/InstallPrompt.jsx'
 import Lightbox from './components/Lightbox.jsx'
 import { usePwaInstall } from './hooks/usePwaInstall.js'
+import { asset } from './lib/asset.js'
 
 const { venue, promos, categories } = menu
 
@@ -103,7 +104,7 @@ export default function App() {
 
             <footer id="contacts" className="mx-auto mt-12 max-w-md px-4 pb-4 text-center">
               <img
-                src="/brand/logo.png"
+                src={asset('/brand/logo.png')}
                 alt={venue.shortName}
                 className="mx-auto h-12 w-auto object-contain"
               />

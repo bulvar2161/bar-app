@@ -1,3 +1,5 @@
+import { asset } from '../lib/asset.js'
+
 const ACCENTS = {
   red: 'from-bar-red to-bar-red-dark',
   cream: 'from-[#fff9ca] to-[#f0e39a] text-bar-dark',
@@ -18,7 +20,7 @@ export default function PromoBanner({ promos }) {
             {promo.image && (
               <>
                 <img
-                  src={promo.image}
+                  src={asset(promo.image)}
                   alt=""
                   aria-hidden="true"
                   loading="lazy"

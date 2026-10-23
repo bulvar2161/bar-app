@@ -1,5 +1,6 @@
 import { MapPin, Clock, ChevronLeft, Phone } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import { asset } from '../lib/asset.js'
 
 export default function Header({ venue, onBack }) {
   const [scrolled, setScrolled] = useState(false)
@@ -31,7 +32,7 @@ export default function Header({ venue, onBack }) {
               </button>
             )}
             <img
-              src="/brand/logo.png"
+              src={asset('/brand/logo.png')}
               alt={venue.shortName}
               className="h-9 w-auto max-w-[62%] object-contain object-left"
             />

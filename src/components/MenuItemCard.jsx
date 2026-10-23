@@ -1,5 +1,6 @@
 import { Maximize2 } from 'lucide-react'
 import { formatPrice } from '../lib/format.js'
+import { asset } from '../lib/asset.js'
 
 const TAG_STYLES = {
   hit: { label: 'Хит', className: 'bg-bar-red text-bar-cream' },
@@ -16,12 +17,12 @@ export default function MenuItemCard({ item, onOpenImage }) {
         {item.image ? (
           <button
             type="button"
-            onClick={() => onOpenImage?.({ src: item.image, name: item.name })}
+            onClick={() => onOpenImage?.({ src: asset(item.image), name: item.name })}
             aria-label={`Открыть фото «${item.name}»`}
             className="group block h-full w-full"
           >
             <img
-              src={item.image}
+              src={asset(item.image)}
               alt={item.name}
               loading="lazy"
               className="h-full w-full object-cover transition duration-300 group-active:scale-105"
